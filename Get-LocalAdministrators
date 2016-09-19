@@ -1,4 +1,6 @@
 function Get-LocalAdministrators {
+    # This function returns the local administrators of a remote system.
+    
     param ([string]$computername=$env:computername,
     [System.Management.Automation.CredentialAttribute()]$Credential
     )
